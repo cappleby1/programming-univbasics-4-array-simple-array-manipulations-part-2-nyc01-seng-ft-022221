@@ -10,4 +10,9 @@ def using_uniq(array)
   return array.uniq
 end
 
-def using_flatten(arrra)
+def using_flatten(arrray)
+  return array.flatten
+end
+
+def using_delete(array, string)
+  array.delete(string)
